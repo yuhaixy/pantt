@@ -1,0 +1,11 @@
+*~
+*.elc
+/auto-save-list
+recentf
+eshell
+/elpa
+.DS_Store
+custom.el
+/var
+projectile-bookmarks.eld
+bookmarks
