@@ -40,9 +40,9 @@
 
 
 ;; neotree
-(require 'neotree)
-(global-set-key [f8] 'neotree-toggle)
-(setq neo-theme (if (display-graphic-p) 'arrow)) ;;icons
+;;(require 'neotree)
+;;(global-set-key [f8] 'neotree-toggle)
+;;(setq neo-theme (if (display-graphic-p) 'arrow)) ;;icons
 
 ;; 逗号后面加空格
 (global-set-key (kbd ",")
