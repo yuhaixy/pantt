@@ -98,5 +98,9 @@
 ;; end table align display
 
 (ecase system-type
+  (gnu/linux
+    ())
+  (darwin
+    ())
   (windows-nt
     (setq default-directory "/home/liuyazhuo/")))
