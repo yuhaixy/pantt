@@ -93,7 +93,8 @@
     (darwin ;; for mac ok!
         (set-font "Monaco" "STHeiti" 12 14))
     (windows-nt ;; for win TODO: debug,
-        (set-font "Consolas" "Microsoft Yahei" 24 24)))
+        ;;(set-font "Consolas" "Microsoft Yahei" 24 24)))
+        (set-font "Consolas" "Microsoft Yahei" 14 14))) ;; for 1366x768
 
 ;; end table align display
 
@@ -103,4 +104,4 @@
   (darwin
     ())
   (windows-nt
-    (setq default-directory "/home/liuyazhuo/")))
+    (setq default-directory "/d/")))
